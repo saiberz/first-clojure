@@ -34,9 +34,9 @@
 (defn save-message [name message]
   (cond
    (empty? name)
-   (home name message "Some dummy forgot to leave a name")
+   (home name message "So don't you have a name?")
    (empty? message)
-   (home name message "Don't you have something to say?")
+   (home name message "Bro express your feeelings")
    :else
    (do
      (println name message)
